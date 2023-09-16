@@ -1,9 +1,7 @@
 package com.xuecheng.content.model.dto;
 
-import lombok.AllArgsConstructor;
+import com.xuecheng.content.model.po.CourseBase;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 import java.io.Serializable;
 import java.util.List;
@@ -24,7 +22,7 @@ public class PageResult<T> implements Serializable {
     //每页记录数
     private Long pageSize;
 
-    public PageResult() {
+    public PageResult(List<CourseBase> items, long pages, long size) {
     }
 
     public PageResult(List<T> items, Long counts, Long page, Long pageSize) {
