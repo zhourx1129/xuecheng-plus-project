@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model" />
     <file type="web" url="file://$PROJECT_DIR$/xuecheng-plus-parent" />
   </component>
   <component name="MavenProjectsManager">
@@ -9,6 +10,12 @@
       <list>
         <option value="$PROJECT_DIR$/xuecheng-plus-parent/pom.xml" />
         <option value="$PROJECT_DIR$/xuecheng-plus-base/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-content/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-mode/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-generator/pom.xml" />
       </list>
     </option>
   </component>
