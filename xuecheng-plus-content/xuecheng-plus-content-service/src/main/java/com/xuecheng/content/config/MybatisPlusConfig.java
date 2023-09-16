@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @Author: zhourx
- * @Description: TODO
+ * @Description: 分页插件
  * @Date: 2023/9/16
  */
 @Configuration

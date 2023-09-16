@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * @Author: zhourx
- * @Description: TODO
+ * @Description:
  * @Date: 2023/9/16
  */
 @SpringBootTest
@@ -42,7 +42,7 @@ public class CourseBaseMapperTests {
         queryWrapper.like(StringUtils.isNotEmpty(courseParamsDto.getCourseName()),CourseBase::getName,courseParamsDto.getCourseName());
         //根据课程审核状态查询 course_base.audit_status = ?
         queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getAuditStatus()),CourseBase::getAuditStatus,courseParamsDto.getAuditStatus());
-        // TODO: 2023/9/16 按课程发布状态查询
+        //  2023/9/16 按课程发布状态查询
         queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getPublishStatus()),CourseBase::getStatus,courseParamsDto.getPublishStatus());
 
         //分页参数

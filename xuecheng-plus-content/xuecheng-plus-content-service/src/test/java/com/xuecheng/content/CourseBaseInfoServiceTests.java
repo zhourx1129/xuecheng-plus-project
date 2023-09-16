@@ -19,7 +19,7 @@ import java.util.List;
 
 /**
  * @Author: zhourx
- * @Description: TODO
+ * @Description: 课程信息接口查询测试
  * @Date: 2023/9/16
  */
 @SpringBootTest
