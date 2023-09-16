@@ -3836,3 +3836,897 @@ Unconditional classes:
 2023-09-16 13:09:52,053 DEBUG [RMI TCP Connection(2)-192.168.101.1][PropertySourcesPropertyResolver.java:115] - Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer
 2023-09-16 13:09:52,061 DEBUG [RMI TCP Connection(2)-192.168.101.1][PropertySourcesPropertyResolver.java:115] - Found key 'server.servlet.context-path' in PropertySource 'configurationProperties' with value of type String
 2023-09-16 13:09:52,061 DEBUG [RMI TCP Connection(2)-192.168.101.1][PropertySourcesPropertyResolver.java:115] - Found key 'server.servlet.context-path' in PropertySource 'configurationProperties' with value of type String
+2023-09-16 13:11:19,243 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-16 13:11:19,243 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-16 13:11:19,243 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-09-16 13:11:19,243 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-09-16 13:11:19,243 DEBUG [http-nio-63040-exec-1][DispatcherServlet.java:526] - Detected StandardServletMultipartResolver
+2023-09-16 13:11:19,243 DEBUG [http-nio-63040-exec-1][DispatcherServlet.java:526] - Detected StandardServletMultipartResolver
+2023-09-16 13:11:19,253 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:542] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-16 13:11:19,253 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:542] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-16 13:11:19,253 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 10 ms
+2023-09-16 13:11:19,253 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 10 ms
+2023-09-16 13:11:19,271 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - GET "/content/swagger-ui.html", parameters={}
+2023-09-16 13:11:19,271 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - GET "/content/swagger-ui.html", parameters={}
+2023-09-16 13:11:19,287 DEBUG [http-nio-63040-exec-1][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2023-09-16 13:11:19,287 DEBUG [http-nio-63040-exec-1][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2023-09-16 13:11:19,332 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,332 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,376 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,376 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,378 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,378 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,379 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,379 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,380 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,380 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,381 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,382 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,381 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,383 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,382 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,383 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,385 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,385 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,385 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,385 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,387 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,387 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,390 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,390 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,397 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,397 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,405 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,405 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,429 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,429 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,500 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,500 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,738 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/favicon-16x16.png?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,738 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/favicon-16x16.png?v=2.9.2", parameters={masked}
+2023-09-16 13:11:19,739 DEBUG [http-nio-63040-exec-8][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,739 DEBUG [http-nio-63040-exec-8][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,743 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,743 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,769 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - GET "/content/swagger-resources/configuration/ui", parameters={}
+2023-09-16 13:11:19,769 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - GET "/content/swagger-resources/configuration/ui", parameters={}
+2023-09-16 13:11:19,771 DEBUG [http-nio-63040-exec-7][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-09-16 13:11:19,771 DEBUG [http-nio-63040-exec-7][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-09-16 13:11:19,830 DEBUG [http-nio-63040-exec-7][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,830 DEBUG [http-nio-63040-exec-7][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,831 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [springfox.documentation.swagger.web.UiConfiguration@6fa8291f]
+2023-09-16 13:11:19,831 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [springfox.documentation.swagger.web.UiConfiguration@6fa8291f]
+2023-09-16 13:11:19,848 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,848 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,852 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - GET "/content/swagger-resources/configuration/security", parameters={}
+2023-09-16 13:11:19,852 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - GET "/content/swagger-resources/configuration/security", parameters={}
+2023-09-16 13:11:19,852 DEBUG [http-nio-63040-exec-9][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-09-16 13:11:19,852 DEBUG [http-nio-63040-exec-9][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-09-16 13:11:19,859 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,859 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,859 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@3cd3a5a]
+2023-09-16 13:11:19,859 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@3cd3a5a]
+2023-09-16 13:11:19,860 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,860 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,864 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - GET "/content/swagger-resources", parameters={}
+2023-09-16 13:11:19,864 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - GET "/content/swagger-resources", parameters={}
+2023-09-16 13:11:19,865 DEBUG [http-nio-63040-exec-10][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-09-16 13:11:19,865 DEBUG [http-nio-63040-exec-10][AbstractHandlerMapping.java:415] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-09-16 13:11:19,868 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,868 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,869 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [[springfox.documentation.swagger.web.SwaggerResource@5b09b39f]]
+2023-09-16 13:11:19,869 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [[springfox.documentation.swagger.web.SwaggerResource@5b09b39f]]
+2023-09-16 13:11:19,872 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,872 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,895 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - GET "/content/v2/api-docs", parameters={}
+2023-09-16 13:11:19,895 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - GET "/content/v2/api-docs", parameters={}
+2023-09-16 13:11:19,896 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - GET "/content/", parameters={}
+2023-09-16 13:11:19,896 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - GET "/content/", parameters={}
+2023-09-16 13:11:19,897 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2023-09-16 13:11:19,897 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2023-09-16 13:11:19,898 DEBUG [http-nio-63040-exec-2][ResourceHttpRequestHandler.java:487] - Resource not found
+2023-09-16 13:11:19,898 DEBUG [http-nio-63040-exec-2][ResourceHttpRequestHandler.java:487] - Resource not found
+2023-09-16 13:11:19,898 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2023-09-16 13:11:19,898 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2023-09-16 13:11:19,903 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-09-16 13:11:19,903 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-09-16 13:11:19,904 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-09-16 13:11:19,904 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-09-16 13:11:19,905 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,905 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,905 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,905 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:19,907 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2023-09-16 13:11:19,907 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2023-09-16 13:11:19,909 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-16 13:11:19,909 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-16 13:11:19,911 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,911 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,911 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,911 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:19,922 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,922 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,922 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [{timestamp=Sat Sep 16 13:11:19 CST 2023, status=404, error=Not Found, message=, path=/content/}]
+2023-09-16 13:11:19,922 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [{timestamp=Sat Sep 16 13:11:19 CST 2023, status=404, error=Not Found, message=, path=/content/}]
+2023-09-16 13:11:19,928 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
+2023-09-16 13:11:19,928 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
+2023-09-16 13:11:19,935 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/csrf", parameters={}
+2023-09-16 13:11:19,935 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/csrf", parameters={}
+2023-09-16 13:11:19,936 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2023-09-16 13:11:19,936 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2023-09-16 13:11:19,940 DEBUG [http-nio-63040-exec-5][ResourceHttpRequestHandler.java:487] - Resource not found
+2023-09-16 13:11:19,940 DEBUG [http-nio-63040-exec-5][ResourceHttpRequestHandler.java:487] - Resource not found
+2023-09-16 13:11:19,940 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2023-09-16 13:11:19,940 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2023-09-16 13:11:19,941 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2023-09-16 13:11:19,941 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2023-09-16 13:11:19,942 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-16 13:11:19,942 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-16 13:11:19,943 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,943 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:19,943 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [{timestamp=Sat Sep 16 13:11:19 CST 2023, status=404, error=Not Found, message=, path=/content/csrf}]
+2023-09-16 13:11:19,943 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [{timestamp=Sat Sep 16 13:11:19 CST 2023, status=404, error=Not Found, message=, path=/content/csrf}]
+2023-09-16 13:11:19,945 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
+2023-09-16 13:11:19,945 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
+2023-09-16 13:11:20,048 WARN [http-nio-63040-exec-1][AbstractSerializableParameter.java:421] - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4409)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3663)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2023-09-16 13:11:20,048 WARN [http-nio-63040-exec-1][AbstractSerializableParameter.java:421] - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4409)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3663)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2023-09-16 13:11:20,059 WARN [http-nio-63040-exec-1][AbstractSerializableParameter.java:421] - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4409)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3663)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2023-09-16 13:11:20,059 WARN [http-nio-63040-exec-1][AbstractSerializableParameter.java:421] - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4409)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3663)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2023-09-16 13:11:20,109 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:20,109 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:20,109 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [springfox.documentation.spring.web.json.Json@7fd43b0e]
+2023-09-16 13:11:20,109 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [springfox.documentation.spring.web.json.Json@7fd43b0e]
+2023-09-16 13:11:20,110 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:20,110 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:20,152 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-09-16 13:11:20,152 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-09-16 13:11:20,153 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:20,153 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:20,158 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:20,158 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:20,161 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-09-16 13:11:20,161 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-09-16 13:11:20,164 DEBUG [http-nio-63040-exec-8][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:20,164 DEBUG [http-nio-63040-exec-8][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:20,169 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:20,169 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:21,381 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2023-09-16 13:11:21,381 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2023-09-16 13:11:21,382 DEBUG [http-nio-63040-exec-7][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:21,382 DEBUG [http-nio-63040-exec-7][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:21,387 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:21,387 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:22,430 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2023-09-16 13:11:22,430 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2023-09-16 13:11:22,431 DEBUG [http-nio-63040-exec-9][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:22,431 DEBUG [http-nio-63040-exec-9][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:22,434 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:22,434 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:40,910 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=2", parameters={masked}
+2023-09-16 13:11:40,910 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=2", parameters={masked}
+2023-09-16 13:11:40,910 DEBUG [http-nio-63040-exec-10][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:11:40,910 DEBUG [http-nio-63040-exec-10][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:11:40,960 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=)]
+2023-09-16 13:11:40,960 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=)]
+2023-09-16 13:11:40,989 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:11:40,989 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:11:40,996 DEBUG [http-nio-63040-exec-10][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@159bbb35] was not registered for synchronization because synchronization is not active
+2023-09-16 13:11:40,996 DEBUG [http-nio-63040-exec-10][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@159bbb35] was not registered for synchronization because synchronization is not active
+2023-09-16 13:11:41,070 DEBUG [http-nio-63040-exec-10][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:11:41,070 DEBUG [http-nio-63040-exec-10][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:11:41,071 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-09-16 13:11:41,071 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-09-16 13:11:41,073 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-09-16 13:11:41,073 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-09-16 13:11:41,073 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - autoCommit......................true
+2023-09-16 13:11:41,073 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - autoCommit......................true
+2023-09-16 13:11:41,073 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - catalog.........................none
+2023-09-16 13:11:41,073 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - catalog.........................none
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - connectionInitSql...............none
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - connectionInitSql...............none
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - dataSource......................none
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - dataSource......................none
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-09-16 13:11:41,074 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-09-16 13:11:41,075 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-09-16 13:11:41,075 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-09-16 13:11:41,075 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-09-16 13:11:41,075 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-09-16 13:11:41,075 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-09-16 13:11:41,075 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-09-16 13:11:41,076 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xc402_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xc402_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-09-16 13:11:41,077 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - metricRegistry..................none
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - metricRegistry..................none
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - minimumIdle.....................10
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - minimumIdle.....................10
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - password........................<masked>
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - password........................<masked>
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - readOnly........................false
+2023-09-16 13:11:41,078 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - readOnly........................false
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - registerMbeans..................false
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - registerMbeans..................false
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - schema..........................none
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - schema..........................none
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - threadFactory...................internal
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - threadFactory...................internal
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - transactionIsolation............default
+2023-09-16 13:11:41,079 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - transactionIsolation............default
+2023-09-16 13:11:41,080 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - username........................"root"
+2023-09-16 13:11:41,080 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - username........................"root"
+2023-09-16 13:11:41,080 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - validationTimeout...............5000
+2023-09-16 13:11:41,080 DEBUG [http-nio-63040-exec-10][HikariConfig.java:1098] - validationTimeout...............5000
+2023-09-16 13:11:41,080 INFO [http-nio-63040-exec-10][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-09-16 13:11:41,080 INFO [http-nio-63040-exec-10][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-09-16 13:11:41,304 DEBUG [http-nio-63040-exec-10][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c769fe8
+2023-09-16 13:11:41,304 DEBUG [http-nio-63040-exec-10][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c769fe8
+2023-09-16 13:11:41,307 INFO [http-nio-63040-exec-10][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-09-16 13:11:41,307 INFO [http-nio-63040-exec-10][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-09-16 13:11:41,310 DEBUG [http-nio-63040-exec-10][Logger.java:49] - JDBC Connection [HikariProxyConnection@1595161120 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:11:41,310 DEBUG [http-nio-63040-exec-10][Logger.java:49] - JDBC Connection [HikariProxyConnection@1595161120 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:11:41,315 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2023-09-16 13:11:41,315 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2023-09-16 13:11:41,340 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-09-16 13:11:41,340 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-09-16 13:11:41,368 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:11:41,368 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:11:41,381 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2023-09-16 13:11:41,381 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2023-09-16 13:11:41,383 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: 2(Long)
+2023-09-16 13:11:41,383 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: 2(Long)
+2023-09-16 13:11:41,392 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:11:41,392 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:11:41,392 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@159bbb35]
+2023-09-16 13:11:41,392 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@159bbb35]
+2023-09-16 13:11:41,400 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:41,400 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:11:41,401 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-09-16 13:11:41,401 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-09-16 13:11:41,404 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:41,404 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:41,409 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-09-16 13:11:41,409 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-09-16 13:11:41,420 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47881fef
+2023-09-16 13:11:41,420 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47881fef
+2023-09-16 13:11:41,429 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b515d4
+2023-09-16 13:11:41,429 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b515d4
+2023-09-16 13:11:41,438 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37795175
+2023-09-16 13:11:41,438 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37795175
+2023-09-16 13:11:41,447 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@669aea9b
+2023-09-16 13:11:41,447 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@669aea9b
+2023-09-16 13:11:41,452 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2", parameters={}
+2023-09-16 13:11:41,452 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - GET "/content/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2", parameters={}
+2023-09-16 13:11:41,453 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:41,453 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2023-09-16 13:11:41,457 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6159ff95
+2023-09-16 13:11:41,457 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6159ff95
+2023-09-16 13:11:41,458 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:41,458 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:11:41,468 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62d4f0b8
+2023-09-16 13:11:41,468 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62d4f0b8
+2023-09-16 13:11:41,478 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c0da04f
+2023-09-16 13:11:41,478 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c0da04f
+2023-09-16 13:11:41,494 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f221de2
+2023-09-16 13:11:41,494 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f221de2
+2023-09-16 13:11:41,510 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59b2339a
+2023-09-16 13:11:41,510 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59b2339a
+2023-09-16 13:11:41,511 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:11:41,511 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:12:11,417 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:12:11,417 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:12:11,418 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:12:11,418 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:12:41,423 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:12:41,423 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:12:41,424 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:12:41,424 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:12:52,185 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=2", parameters={masked}
+2023-09-16 13:12:52,185 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=2", parameters={masked}
+2023-09-16 13:12:52,185 DEBUG [http-nio-63040-exec-8][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:12:52,185 DEBUG [http-nio-63040-exec-8][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:12:52,187 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:12:52,187 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:12:52,190 DEBUG [http-nio-63040-exec-8][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:12:52,190 DEBUG [http-nio-63040-exec-8][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:12:52,190 DEBUG [http-nio-63040-exec-8][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2208fb2a] was not registered for synchronization because synchronization is not active
+2023-09-16 13:12:52,190 DEBUG [http-nio-63040-exec-8][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2208fb2a] was not registered for synchronization because synchronization is not active
+2023-09-16 13:12:52,215 DEBUG [http-nio-63040-exec-8][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:12:52,215 DEBUG [http-nio-63040-exec-8][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:12:52,217 DEBUG [http-nio-63040-exec-8][Logger.java:49] - JDBC Connection [HikariProxyConnection@946409490 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:12:52,217 DEBUG [http-nio-63040-exec-8][Logger.java:49] - JDBC Connection [HikariProxyConnection@946409490 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:12:52,218 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:12:52,218 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:12:52,219 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:12:52,219 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:12:52,222 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:12:52,222 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:12:52,224 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?
+2023-09-16 13:12:52,224 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?
+2023-09-16 13:12:52,225 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long)
+2023-09-16 13:12:52,225 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long)
+2023-09-16 13:12:52,230 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:12:52,230 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:12:52,230 DEBUG [http-nio-63040-exec-8][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2208fb2a]
+2023-09-16 13:12:52,230 DEBUG [http-nio-63040-exec-8][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2208fb2a]
+2023-09-16 13:12:52,231 DEBUG [http-nio-63040-exec-8][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:12:52,231 DEBUG [http-nio-63040-exec-8][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:12:52,232 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-09-16 13:12:52,232 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-09-16 13:12:52,233 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:12:52,233 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:13:11,434 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:13:11,434 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:13:11,434 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:13:11,434 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:13:41,435 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:13:41,435 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:13:41,435 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:13:41,435 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:14:11,449 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:14:11,449 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:14:11,449 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:14:11,449 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:14:41,451 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:14:41,451 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:14:41,451 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:14:41,451 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:15:11,466 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:15:11,466 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:15:11,466 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:15:11,466 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:15:41,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:15:41,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:15:41,469 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:15:41,469 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:16:11,472 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:16:11,472 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:16:11,473 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:16:11,473 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:16:41,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:16:41,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:16:41,486 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:16:41,486 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:16:50,810 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=2", parameters={masked}
+2023-09-16 13:16:50,810 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=2", parameters={masked}
+2023-09-16 13:16:50,811 DEBUG [http-nio-63040-exec-9][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:16:50,811 DEBUG [http-nio-63040-exec-9][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:16:50,812 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:16:50,812 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:16:50,813 DEBUG [http-nio-63040-exec-9][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:16:50,813 DEBUG [http-nio-63040-exec-9][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:16:50,814 DEBUG [http-nio-63040-exec-9][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6df6ad30] was not registered for synchronization because synchronization is not active
+2023-09-16 13:16:50,814 DEBUG [http-nio-63040-exec-9][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6df6ad30] was not registered for synchronization because synchronization is not active
+2023-09-16 13:16:50,818 DEBUG [http-nio-63040-exec-9][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:16:50,818 DEBUG [http-nio-63040-exec-9][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:16:50,820 DEBUG [http-nio-63040-exec-9][Logger.java:49] - JDBC Connection [HikariProxyConnection@126043454 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:16:50,820 DEBUG [http-nio-63040-exec-9][Logger.java:49] - JDBC Connection [HikariProxyConnection@126043454 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:16:50,821 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:16:50,821 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:16:50,822 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:16:50,822 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:16:50,824 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:16:50,824 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:16:50,826 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?
+2023-09-16 13:16:50,826 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?
+2023-09-16 13:16:50,827 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long)
+2023-09-16 13:16:50,827 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long)
+2023-09-16 13:16:50,831 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:16:50,831 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:16:50,831 DEBUG [http-nio-63040-exec-9][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6df6ad30]
+2023-09-16 13:16:50,831 DEBUG [http-nio-63040-exec-9][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6df6ad30]
+2023-09-16 13:16:50,832 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:16:50,832 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:16:50,833 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-09-16 13:16:50,833 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-09-16 13:16:50,834 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:16:50,834 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:17:11,501 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:17:11,501 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:17:11,501 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:17:11,501 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:17:41,515 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:17:41,515 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:17:41,516 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:17:41,516 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:18:11,524 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:18:11,524 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:18:11,524 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:18:11,524 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:18:34,575 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=2", parameters={masked}
+2023-09-16 13:18:34,575 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=2", parameters={masked}
+2023-09-16 13:18:34,576 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:18:34,576 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:18:34,577 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:18:34,577 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:18:34,577 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:18:34,577 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:18:34,578 DEBUG [http-nio-63040-exec-6][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32360182] was not registered for synchronization because synchronization is not active
+2023-09-16 13:18:34,578 DEBUG [http-nio-63040-exec-6][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32360182] was not registered for synchronization because synchronization is not active
+2023-09-16 13:18:34,582 DEBUG [http-nio-63040-exec-6][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:18:34,582 DEBUG [http-nio-63040-exec-6][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:18:34,583 DEBUG [http-nio-63040-exec-6][Logger.java:49] - JDBC Connection [HikariProxyConnection@1173940269 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:18:34,583 DEBUG [http-nio-63040-exec-6][Logger.java:49] - JDBC Connection [HikariProxyConnection@1173940269 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:18:34,584 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:18:34,584 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:18:34,584 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:18:34,584 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:18:34,588 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:18:34,588 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:18:34,589 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?
+2023-09-16 13:18:34,589 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?
+2023-09-16 13:18:34,590 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long)
+2023-09-16 13:18:34,590 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long)
+2023-09-16 13:18:34,594 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:18:34,594 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:18:34,594 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32360182]
+2023-09-16 13:18:34,594 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32360182]
+2023-09-16 13:18:34,595 DEBUG [http-nio-63040-exec-6][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:18:34,595 DEBUG [http-nio-63040-exec-6][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:18:34,595 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-09-16 13:18:34,595 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-09-16 13:18:34,597 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:18:34,597 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:18:41,531 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:18:41,531 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:18:41,531 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:18:41,531 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:18:58,238 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=2&pageSize=2", parameters={masked}
+2023-09-16 13:18:58,238 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=2&pageSize=2", parameters={masked}
+2023-09-16 13:18:58,239 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:18:58,239 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:18:58,240 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:18:58,240 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:18:58,240 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:18:58,240 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:18:58,241 DEBUG [http-nio-63040-exec-2][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640573c5] was not registered for synchronization because synchronization is not active
+2023-09-16 13:18:58,241 DEBUG [http-nio-63040-exec-2][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640573c5] was not registered for synchronization because synchronization is not active
+2023-09-16 13:18:58,244 DEBUG [http-nio-63040-exec-2][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:18:58,244 DEBUG [http-nio-63040-exec-2][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:18:58,245 DEBUG [http-nio-63040-exec-2][Logger.java:49] - JDBC Connection [HikariProxyConnection@1763792487 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:18:58,245 DEBUG [http-nio-63040-exec-2][Logger.java:49] - JDBC Connection [HikariProxyConnection@1763792487 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:18:58,245 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:18:58,245 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:18:58,246 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:18:58,246 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:18:58,248 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:18:58,248 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:18:58,250 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?,?
+2023-09-16 13:18:58,250 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?,?
+2023-09-16 13:18:58,251 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long), 2(Long)
+2023-09-16 13:18:58,251 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long), 2(Long)
+2023-09-16 13:18:58,254 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:18:58,254 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:18:58,255 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640573c5]
+2023-09-16 13:18:58,255 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640573c5]
+2023-09-16 13:18:58,255 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:18:58,255 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:18:58,256 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=27, companyId=1232141425, companyName=null, name=Javascript之VueJS, u (truncated)...]
+2023-09-16 13:18:58,256 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=27, companyId=1232141425, companyName=null, name=Javascript之VueJS, u (truncated)...]
+2023-09-16 13:18:58,257 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:18:58,257 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:19:11,539 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:19:11,539 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:19:11,539 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:19:11,539 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:19:41,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:19:41,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:19:41,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:19:41,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:20:11,560 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:20:11,560 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:20:11,560 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:20:11,560 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:20:41,574 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:20:41,574 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:20:41,575 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:20:41,575 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:21:11,578 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:21:11,578 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:21:11,578 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:21:11,578 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:21:29,848 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=2&pageSize=2", parameters={masked}
+2023-09-16 13:21:29,848 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=2&pageSize=2", parameters={masked}
+2023-09-16 13:21:29,849 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:21:29,849 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-09-16 13:21:29,850 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:21:29,850 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=202004, courseName=java, publishStatus=)]
+2023-09-16 13:21:29,851 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:21:29,851 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-09-16 13:21:29,851 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7520a5eb] was not registered for synchronization because synchronization is not active
+2023-09-16 13:21:29,851 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7520a5eb] was not registered for synchronization because synchronization is not active
+2023-09-16 13:21:29,854 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:21:29,854 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-09-16 13:21:29,856 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@807544107 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:21:29,856 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@807544107 wrapping com.mysql.cj.jdbc.ConnectionImpl@1c769fe8] will not be managed by Spring
+2023-09-16 13:21:29,856 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:21:29,856 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base WHERE (name LIKE ? AND audit_status = ?)
+2023-09-16 13:21:29,857 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:21:29,857 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String)
+2023-09-16 13:21:29,859 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:21:29,859 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-16 13:21:29,860 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?,?
+2023-09-16 13:21:29,860 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ?) LIMIT ?,?
+2023-09-16 13:21:29,861 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long), 2(Long)
+2023-09-16 13:21:29,861 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: %java%(String), 202004(String), 2(Long), 2(Long)
+2023-09-16 13:21:29,864 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:21:29,864 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 2
+2023-09-16 13:21:29,865 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7520a5eb]
+2023-09-16 13:21:29,865 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7520a5eb]
+2023-09-16 13:21:29,865 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:21:29,865 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-16 13:21:29,866 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=27, companyId=1232141425, companyName=null, name=Javascript之VueJS, u (truncated)...]
+2023-09-16 13:21:29,866 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=27, companyId=1232141425, companyName=null, name=Javascript之VueJS, u (truncated)...]
+2023-09-16 13:21:29,867 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:21:29,867 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
+2023-09-16 13:21:41,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:21:41,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:21:41,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:21:41,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:22:11,589 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:22:11,589 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-09-16 13:22:11,589 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-09-16 13:22:11,589 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
