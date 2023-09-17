@@ -1,10 +1,12 @@
-package com.xuecheng.content.model.dto;
+package com.xuecheng.base.model;
 
-import com.xuecheng.content.model.po.CourseBase;
+
 import lombok.Data;
+import lombok.ToString;
 
 import java.io.Serializable;
 import java.util.List;
+
 
 /**
  * @Author: zhourx
@@ -12,6 +14,7 @@ import java.util.List;
  * @Date: 2023/9/15
  */
 @Data
+@ToString
 public class PageResult<T> implements Serializable {
     //数据列表
     private List<T> items;
@@ -22,7 +25,7 @@ public class PageResult<T> implements Serializable {
     //每页记录数
     private Long pageSize;
 
-    public PageResult(List<CourseBase> items, long pages, long size) {
+    public PageResult() {
     }
 
     public PageResult(List<T> items, Long counts, Long page, Long pageSize) {

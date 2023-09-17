@@ -4,14 +4,13 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.content.mapper.CourseBaseMapper;
-import com.xuecheng.content.model.dto.PageResult;
+import com.xuecheng.base.model.PageResult;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.service.CourseBaseInfoService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Import;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
