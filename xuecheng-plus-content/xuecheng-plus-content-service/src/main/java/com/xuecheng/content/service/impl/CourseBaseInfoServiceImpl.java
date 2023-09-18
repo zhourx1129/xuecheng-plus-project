@@ -2,6 +2,7 @@ package com.xuecheng.content.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.content.mapper.CourseBaseMapper;
 import com.xuecheng.base.model.PageResult;
@@ -72,8 +73,9 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     @Override
     public CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto dto) {
         //参数的合法性校验
+        //            throw new RuntimeException("课程名称为空");
         if (StringUtils.isBlank(dto.getName())) {
-            throw new RuntimeException("课程名称为空");
+            XueChengPlusException.cast("课程名称为空");
         }
 
         if (StringUtils.isBlank(dto.getMt())) {
@@ -143,8 +145,8 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
             BeanUtils.copyProperties(courseMarket,courseBaseInfoDto);
         }
         //通过courseCategoryMapper查询分类信息，将分类名称分在courseBaseInfoDto中
-        // TODO: 2023/9/17 课程分类名称封装到courseBaseInfoDto
-        //查询课程分类名称
+        // 2023/9/17 课程分类名称封装到courseBaseInfoDto
+//        查询课程分类名称
         CourseCategory courseCategoryBySt = courseCategoryMapper.selectById(courseBase.getSt());
         courseBaseInfoDto.setStName(courseCategoryBySt.getName());
         CourseCategory courseCategoryByMt = courseCategoryMapper.selectById(courseBase.getMt());
@@ -159,9 +161,10 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
             throw new RuntimeException("收费规则为空");
         }
         //如果课程收费，价格没有填写也需要抛出异常
-        if (charge.equals("202010")){
+        if (charge.equals("201001")){
             if(courseMarket.getPrice() == null || courseMarket.getPrice()<=0){
-                throw new RuntimeException("课程价格不合理");
+                XueChengPlusException.cast("课程价格不合理");
+                // throw new RuntimeException("课程价格不合理");
             }
         }
         //从数据库中查询营销信息，存在则更新，不存在则添加
@@ -169,7 +172,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         if (market==null){
             //插入数据库
             return courseMarketMapper.insert(courseMarket);
-        }else{
+        }else{ 
             //更新数据库
             //将旧数据拷贝到新数据中
             BeanUtils.copyProperties(courseMarket,market);
