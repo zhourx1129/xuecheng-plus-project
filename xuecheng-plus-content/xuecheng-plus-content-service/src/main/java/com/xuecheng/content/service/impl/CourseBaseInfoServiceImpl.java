@@ -74,7 +74,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     public CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto dto) {
         //参数的合法性校验
         //            throw new RuntimeException("课程名称为空");
-        if (StringUtils.isBlank(dto.getName())) {
+        /*if (StringUtils.isBlank(dto.getName())) {
             XueChengPlusException.cast("课程名称为空");
         }
 
@@ -99,7 +99,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
         if (StringUtils.isBlank(dto.getCharge())) {
             throw new RuntimeException("收费规则为空");
-        }
+        }*/
 
         //向课程基本信息表course_base写入数据
         CourseBase courseBaseNew = new CourseBase();
@@ -172,7 +172,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         if (market==null){
             //插入数据库
             return courseMarketMapper.insert(courseMarket);
-        }else{ 
+        }else{
             //更新数据库
             //将旧数据拷贝到新数据中
             BeanUtils.copyProperties(courseMarket,market);
