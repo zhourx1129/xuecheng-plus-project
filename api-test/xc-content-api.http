@@ -35,6 +35,10 @@ Content-Type: application/json
   "description": "java网络变成高级java网络变成高级"
 }
 
+
+### 查询课程信息
+GET {{content_host}}/content/course/40
+
 <> 2023-09-16T131650.200.json
 
 

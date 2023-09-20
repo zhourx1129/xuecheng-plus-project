@@ -10,6 +10,7 @@ import com.xuecheng.content.mapper.CourseCategoryMapper;
 import com.xuecheng.content.mapper.CourseMarketMapper;
 import com.xuecheng.content.model.dto.AddCourseDto;
 import com.xuecheng.content.model.dto.CourseBaseInfoDto;
+import com.xuecheng.content.model.dto.EditCourseDto;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.model.po.CourseCategory;
@@ -28,7 +29,7 @@ import java.util.List;
 
 /**
  * @Author: zhourx
- * @Description: TODO
+ * @Description:
  * @Date: 2023/9/16
  */
 @Slf4j
@@ -48,7 +49,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         queryWrapper.like(StringUtils.isNotEmpty(courseParamsDto.getCourseName()),CourseBase::getName,courseParamsDto.getCourseName());
         //根据课程审核状态查询 course_base.audit_status = ?
         queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getAuditStatus()),CourseBase::getAuditStatus,courseParamsDto.getAuditStatus());
-        // TODO: 2023/9/16 按课程发布状态查询
+        // 2023/9/16 按课程发布状态查询
         queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getPublishStatus()),CourseBase::getStatus,courseParamsDto.getPublishStatus());
 
         //创建page分页参数对象,参数：当前页码，每页记录数
@@ -131,8 +132,13 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         return courseBaseInfo;
     }
 
-    //查询课程信息
-    public CourseBaseInfoDto getCourseBaseInfo(long courseId){
+    /**
+     * 根据id查询课程基本信息
+     *
+     * @param courseId 课程id
+     * @return {@link CourseBaseInfoDto} CourseBaseInfoDto
+     */
+    public CourseBaseInfoDto getCourseBaseInfo(Long courseId){
         //从课程基本信息表中查询
         CourseBase courseBase = courseBaseMapper.selectById(courseId);
         //从课程营销表中查询
@@ -153,6 +159,38 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         courseBaseInfoDto.setMtName(courseCategoryByMt.getName());
         return courseBaseInfoDto;
     }
+    /**
+     * 修改课程
+     * @param companyId      机构id
+     * @param editCourseDto 修改课程新
+     * @return {@link CourseBaseInfoDto} 返回课程的详细信息
+     */
+    public CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto editCourseDto){
+        //先拿到课程id
+        Long courseId = editCourseDto.getId();
+        //查询课程信息
+        CourseBase courseBaseInfo = courseBaseMapper.selectById(courseId);
+        if (courseBaseInfo==null){
+            XueChengPlusException.cast("课程不存在");
+        }
+        //数据合法性校验
+        //本机构只能修改本机构的课程
+        if(!companyId.equals(courseBaseInfo.getCompanyId())){
+            XueChengPlusException.cast("本机构只能修改本机构的课程");
+        }
+        //封装数据
+        BeanUtils.copyProperties(editCourseDto,courseBaseInfo);
+        //修改时间
+        courseBaseInfo.setChangeDate(LocalDateTime.now());
+        //更新数据库
+        int updateNum = courseBaseMapper.updateById(courseBaseInfo);
+        if (updateNum<=0){
+            XueChengPlusException.cast("修改课程失败");
+        }
+        //查询课程信息
+        return getCourseBaseInfo(courseId);
+    }
+
     //单独写一个方法保存营销信息，逻辑：存在则更新，不存在则添加
     private int saveCourseMarket(CourseMarket courseMarket){
         //参数的合法性校验
