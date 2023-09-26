@@ -7,14 +7,17 @@ import com.j256.simplemagic.ContentInfoUtil;
 import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
+import com.xuecheng.base.model.RestResponse;
 import com.xuecheng.media.mapper.MediaFilesMapper;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
 import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.model.dto.UploadFileResultDto;
 import com.xuecheng.media.model.po.MediaFiles;
 import com.xuecheng.media.service.MediaFileService;
+import io.minio.GetObjectArgs;
 import io.minio.MinioClient;
 import io.minio.UploadObjectArgs;
+import io.minio.errors.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -30,7 +33,10 @@ import javax.activation.MimeType;
 import java.awt.*;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FilterInputStream;
 import java.io.IOException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -184,7 +190,99 @@ public class MediaFileServiceImpl implements MediaFileService {
   }
   return mediaFiles;
  }
-  //@Transactional
+
+ /**
+  * 检查文件是否存在
+  *
+  * @param fileMd5 文件md5
+  * @return {@link RestResponse}<{@link Boolean}>
+  */
+ @Override
+ public RestResponse<Boolean> checkFile(String fileMd5) {
+  //先查询数据库
+  MediaFiles mediaFiles = mediaFilesMapper.selectById(fileMd5);
+  if (mediaFiles != null) {
+   //桶
+   String bucket = mediaFiles.getBucket();
+   //objectName
+   String filePath = mediaFiles.getFilePath();
+   //如果数据库存在再查询minio
+   GetObjectArgs getObjectArgs = GetObjectArgs
+           .builder()
+           .bucket(bucket)
+           .object(filePath)
+           .build();
+   try {
+    FilterInputStream inputStream = minioClient.getObject(getObjectArgs);
+    if (inputStream!=null)
+     //文件已经存在
+     return RestResponse.success(true);
+   } catch (Exception e) {
+    e.printStackTrace();
+   }
+  }
+  //文件不存在
+  return RestResponse.success(false);
+ }
+
+
+ //得到分块文件目录
+ private String getChunkFileFolderPath(String fileMd5){
+  return fileMd5.substring(0,1)+"/"+fileMd5.substring(1,2)+"/"+fileMd5+"/"+"chunk"+"/";
+ }
+ /**
+  * 检查分块文件是否存在
+  *
+  * @param fileMd5    文件md5
+  * @return {@link RestResponse}<{@link Boolean}>
+  */
+ @Override
+ public RestResponse<Boolean> checkChunk(String fileMd5, int chunkIndex) {
+  //分块存储的路径是:md5前两位为两个目录，chunk存储分块文件
+  String chunkFileFolderPath = getChunkFileFolderPath(fileMd5);
+   //如果数据库存在再查询minio
+   GetObjectArgs getObjectArgs = GetObjectArgs
+           .builder()
+           .bucket(bucket_video)
+           .object(chunkFileFolderPath+chunkIndex)
+           .build();
+   try {
+    FilterInputStream inputStream = minioClient.getObject(getObjectArgs);
+    if (inputStream!=null)
+     //文件已经存在
+     return RestResponse.success(true);
+   } catch (Exception e) {
+    e.printStackTrace();
+   }
+  //文件不存在
+  return RestResponse.success(false);
+ }
+
+ @Override
+ public RestResponse uploadChunk(String fileMd5, int chunk, String localChunkFilePath) {
+  String chunkFilePath = getChunkFileFolderPath(fileMd5) + chunk;
+  //获取mimetype
+  String mimeType = getMimeType(null);
+  //将分块文件上传到minio
+  boolean isSuccees = addMediaFilesToMinIO(localChunkFilePath, mimeType, bucket_video, chunkFilePath);
+  if (!isSuccees) {
+   log.debug("上传分块文件失败:{}", chunkFilePath);
+   //上传失败
+    return RestResponse.validfail(false,"上传失败");
+  }
+  //上传成功
+  return RestResponse.success(true);
+ }
+
+ @Override
+ public RestResponse mergechunks(Long companyId, String fileMd5, int chunkTotal, UploadFileParamsDto uploadFileParamsDto) {
+//  获取分块文件路径
+
+  return null;
+ }
+
+
+ //@Transactional
  @Override
  public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
   //文件名
