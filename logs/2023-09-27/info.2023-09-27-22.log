@@ -1,0 +1,292 @@
+2023-09-27 23:00:00,347 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-09-27 23:00:00,347 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-09-27 23:00:00,390 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-09-27 23:00:00,390 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-09-27 23:00:00,390 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'simpleDiscoveryClient' via factory method to bean named 'simpleDiscoveryProperties'
+2023-09-27 23:00:00,390 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'simpleDiscoveryClient' via factory method to bean named 'simpleDiscoveryProperties'
+2023-09-27 23:00:00,391 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-09-27 23:00:00,391 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-09-27 23:00:00,392 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-27 23:00:00,392 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-27 23:00:00,393 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'compositeDiscoveryClient' via factory method to bean named 'nacosDiscoveryClient'
+2023-09-27 23:00:00,393 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'compositeDiscoveryClient' via factory method to bean named 'nacosDiscoveryClient'
+2023-09-27 23:00:00,393 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'compositeDiscoveryClient' via factory method to bean named 'simpleDiscoveryClient'
+2023-09-27 23:00:00,393 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'compositeDiscoveryClient' via factory method to bean named 'simpleDiscoveryClient'
+2023-09-27 23:00:00,394 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.CommonsClientAutoConfiguration'
+2023-09-27 23:00:00,394 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.CommonsClientAutoConfiguration'
+2023-09-27 23:00:00,394 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.ReactiveCommonsClientAutoConfiguration'
+2023-09-27 23:00:00,394 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.ReactiveCommonsClientAutoConfiguration'
+2023-09-27 23:00:00,395 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig'
+2023-09-27 23:00:00,395 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig'
+2023-09-27 23:00:00,396 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'asyncLoadBalancerInterceptor'
+2023-09-27 23:00:00,396 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'asyncLoadBalancerInterceptor'
+2023-09-27 23:00:00,397 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'asyncLoadBalancerInterceptor' via factory method to bean named 'loadBalancerClient'
+2023-09-27 23:00:00,397 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'asyncLoadBalancerInterceptor' via factory method to bean named 'loadBalancerClient'
+2023-09-27 23:00:00,402 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'asyncRestTemplateCustomizer'
+2023-09-27 23:00:00,402 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'asyncRestTemplateCustomizer'
+2023-09-27 23:00:00,403 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'asyncRestTemplateCustomizer' via factory method to bean named 'asyncLoadBalancerInterceptor'
+2023-09-27 23:00:00,403 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'asyncRestTemplateCustomizer' via factory method to bean named 'asyncLoadBalancerInterceptor'
+2023-09-27 23:00:00,405 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration$AsyncRestTemplateCustomizerConfig'
+2023-09-27 23:00:00,405 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration$AsyncRestTemplateCustomizerConfig'
+2023-09-27 23:00:00,409 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'loadBalancedAsyncRestTemplateInitializer'
+2023-09-27 23:00:00,409 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'loadBalancedAsyncRestTemplateInitializer'
+2023-09-27 23:00:00,411 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'loadBalancedAsyncRestTemplateInitializer' via factory method to bean named 'asyncRestTemplateCustomizer'
+2023-09-27 23:00:00,411 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'loadBalancedAsyncRestTemplateInitializer' via factory method to bean named 'asyncRestTemplateCustomizer'
+2023-09-27 23:00:00,413 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration'
+2023-09-27 23:00:00,413 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration'
+2023-09-27 23:00:00,414 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig'
+2023-09-27 23:00:00,414 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig'
+2023-09-27 23:00:00,418 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'loadBalancerInterceptor'
+2023-09-27 23:00:00,418 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'loadBalancerInterceptor'
+2023-09-27 23:00:00,420 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'loadBalancerRequestFactory'
+2023-09-27 23:00:00,420 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'loadBalancerRequestFactory'
+2023-09-27 23:00:00,420 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration'
+2023-09-27 23:00:00,420 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration'
+2023-09-27 23:00:00,425 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'loadBalancerRequestFactory' via factory method to bean named 'loadBalancerClient'
+2023-09-27 23:00:00,425 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'loadBalancerRequestFactory' via factory method to bean named 'loadBalancerClient'
+2023-09-27 23:00:00,427 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'loadBalancerInterceptor' via factory method to bean named 'loadBalancerClient'
+2023-09-27 23:00:00,427 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'loadBalancerInterceptor' via factory method to bean named 'loadBalancerClient'
+2023-09-27 23:00:00,428 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'loadBalancerInterceptor' via factory method to bean named 'loadBalancerRequestFactory'
+2023-09-27 23:00:00,428 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'loadBalancerInterceptor' via factory method to bean named 'loadBalancerRequestFactory'
+2023-09-27 23:00:00,429 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'restTemplateCustomizer'
+2023-09-27 23:00:00,429 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'restTemplateCustomizer'
+2023-09-27 23:00:00,430 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'restTemplateCustomizer' via factory method to bean named 'loadBalancerInterceptor'
+2023-09-27 23:00:00,430 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'restTemplateCustomizer' via factory method to bean named 'loadBalancerInterceptor'
+2023-09-27 23:00:00,431 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'loadBalancedRestTemplateInitializerDeprecated'
+2023-09-27 23:00:00,431 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'loadBalancedRestTemplateInitializerDeprecated'
+2023-09-27 23:00:00,433 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'spring.cloud.loadbalancer.retry-org.springframework.cloud.client.loadbalancer.LoadBalancerRetryProperties'
+2023-09-27 23:00:00,433 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'spring.cloud.loadbalancer.retry-org.springframework.cloud.client.loadbalancer.LoadBalancerRetryProperties'
+2023-09-27 23:00:00,436 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration'
+2023-09-27 23:00:00,436 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration'
+2023-09-27 23:00:00,437 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.commons.httpclient.HttpClientConfiguration$ApacheHttpClientConfiguration'
+2023-09-27 23:00:00,437 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.commons.httpclient.HttpClientConfiguration$ApacheHttpClientConfiguration'
+2023-09-27 23:00:00,438 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'connManFactory'
+2023-09-27 23:00:00,438 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'connManFactory'
+2023-09-27 23:00:00,444 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'apacheHttpClientBuilder'
+2023-09-27 23:00:00,444 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'apacheHttpClientBuilder'
+2023-09-27 23:00:00,479 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'apacheHttpClientFactory'
+2023-09-27 23:00:00,479 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'apacheHttpClientFactory'
+2023-09-27 23:00:00,480 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'apacheHttpClientFactory' via factory method to bean named 'apacheHttpClientBuilder'
+2023-09-27 23:00:00,480 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'apacheHttpClientFactory' via factory method to bean named 'apacheHttpClientBuilder'
+2023-09-27 23:00:00,482 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.commons.httpclient.HttpClientConfiguration'
+2023-09-27 23:00:00,483 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.configuration.CompatibilityVerifierAutoConfiguration'
+2023-09-27 23:00:00,484 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'compositeCompatibilityVerifier'
+2023-09-27 23:00:00,485 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'springBootVersionVerifier'
+2023-09-27 23:00:00,486 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'spring.cloud.compatibility-verifier-org.springframework.cloud.configuration.CompatibilityVerifierProperties'
+2023-09-27 23:00:00,489 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'springBootVersionVerifier' via factory method to bean named 'spring.cloud.compatibility-verifier-org.springframework.cloud.configuration.CompatibilityVerifierProperties'
+2023-09-27 23:00:00,482 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.commons.httpclient.HttpClientConfiguration'
+2023-09-27 23:00:00,483 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.cloud.configuration.CompatibilityVerifierAutoConfiguration'
+2023-09-27 23:00:00,484 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'compositeCompatibilityVerifier'
+2023-09-27 23:00:00,485 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'springBootVersionVerifier'
+2023-09-27 23:00:00,486 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'spring.cloud.compatibility-verifier-org.springframework.cloud.configuration.CompatibilityVerifierProperties'
+2023-09-27 23:00:00,489 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'springBootVersionVerifier' via factory method to bean named 'spring.cloud.compatibility-verifier-org.springframework.cloud.configuration.CompatibilityVerifierProperties'
+2023-09-27 23:00:00,496 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'compositeCompatibilityVerifier' via factory method to bean named 'springBootVersionVerifier'
+2023-09-27 23:00:00,496 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'compositeCompatibilityVerifier' via factory method to bean named 'springBootVersionVerifier'
+2023-09-27 23:00:00,497 DEBUG [main][SpringBootVersionVerifier.java:88] - Version found in Boot manifest [2.3.7.RELEASE]
+2023-09-27 23:00:00,497 DEBUG [main][SpringBootVersionVerifier.java:88] - Version found in Boot manifest [2.3.7.RELEASE]
+2023-09-27 23:00:00,500 DEBUG [main][SpringBootVersionVerifier.java:226] - Predicate [Predicate for Boot 2.2] was matched
+2023-09-27 23:00:00,500 DEBUG [main][SpringBootVersionVerifier.java:226] - Predicate [Predicate for Boot 2.2] was matched
+2023-09-27 23:00:00,500 DEBUG [main][CompositeCompatibilityVerifier.java:44] - All conditions are passing
+2023-09-27 23:00:00,500 DEBUG [main][CompositeCompatibilityVerifier.java:44] - All conditions are passing
+2023-09-27 23:00:00,501 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishMapper'
+2023-09-27 23:00:00,501 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishMapper'
+2023-09-27 23:00:00,525 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.insert
+2023-09-27 23:00:00,525 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.insert
+2023-09-27 23:00:00,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.delete
+2023-09-27 23:00:00,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.delete
+2023-09-27 23:00:00,532 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.deleteByMap
+2023-09-27 23:00:00,532 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.deleteByMap
+2023-09-27 23:00:00,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.deleteById
+2023-09-27 23:00:00,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.deleteById
+2023-09-27 23:00:00,540 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-09-27 23:00:00,540 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-09-27 23:00:00,544 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.update
+2023-09-27 23:00:00,544 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.update
+2023-09-27 23:00:00,548 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.updateById
+2023-09-27 23:00:00,548 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.updateById
+2023-09-27 23:00:00,549 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectById
+2023-09-27 23:00:00,549 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectById
+2023-09-27 23:00:00,552 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectBatchIds
+2023-09-27 23:00:00,552 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectBatchIds
+2023-09-27 23:00:00,556 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectByMap
+2023-09-27 23:00:00,556 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectByMap
+2023-09-27 23:00:00,560 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectOne
+2023-09-27 23:00:00,560 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectOne
+2023-09-27 23:00:00,569 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectCount
+2023-09-27 23:00:00,569 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectCount
+2023-09-27 23:00:00,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectMaps
+2023-09-27 23:00:00,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectMaps
+2023-09-27 23:00:00,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectMapsPage
+2023-09-27 23:00:00,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectMapsPage
+2023-09-27 23:00:00,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectObjs
+2023-09-27 23:00:00,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectObjs
+2023-09-27 23:00:00,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectList
+2023-09-27 23:00:00,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectList
+2023-09-27 23:00:00,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectPage
+2023-09-27 23:00:00,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishMapper.selectPage
+2023-09-27 23:00:00,644 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishPreMapper'
+2023-09-27 23:00:00,644 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishPreMapper'
+2023-09-27 23:00:00,736 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.insert
+2023-09-27 23:00:00,736 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.insert
+2023-09-27 23:00:00,742 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.delete
+2023-09-27 23:00:00,742 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.delete
+2023-09-27 23:00:00,750 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-09-27 23:00:00,750 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-09-27 23:00:00,762 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.deleteById
+2023-09-27 23:00:00,762 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.deleteById
+2023-09-27 23:00:00,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-09-27 23:00:00,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-09-27 23:00:00,774 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.update
+2023-09-27 23:00:00,774 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.update
+2023-09-27 23:00:00,778 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.updateById
+2023-09-27 23:00:00,778 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.updateById
+2023-09-27 23:00:00,779 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectById
+2023-09-27 23:00:00,779 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectById
+2023-09-27 23:00:00,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-09-27 23:00:00,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-09-27 23:00:00,787 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectByMap
+2023-09-27 23:00:00,787 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectByMap
+2023-09-27 23:00:00,862 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-09-27 23:00:00,862 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-09-27 23:00:00,862 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 4502 ms
+2023-09-27 23:00:00,862 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 4502 ms
+2023-09-27 23:00:00,884 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectOne
+2023-09-27 23:00:00,884 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectOne
+2023-09-27 23:00:00,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectCount
+2023-09-27 23:00:00,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectCount
+2023-09-27 23:00:00,909 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectMaps
+2023-09-27 23:00:00,909 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectMaps
+2023-09-27 23:00:00,914 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-09-27 23:00:00,914 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-09-27 23:00:00,919 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectObjs
+2023-09-27 23:00:00,919 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectObjs
+2023-09-27 23:00:00,923 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectList
+2023-09-27 23:00:00,923 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectList
+2023-09-27 23:00:00,927 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectPage
+2023-09-27 23:00:00,927 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CoursePublishPreMapper.selectPage
+2023-09-27 23:00:00,927 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseTeacherMapper'
+2023-09-27 23:00:00,927 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseTeacherMapper'
+2023-09-27 23:00:01,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-09-27 23:00:01,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-09-27 23:00:01,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-09-27 23:00:01,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-09-27 23:00:01,013 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-09-27 23:00:01,013 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-09-27 23:00:01,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-09-27 23:00:01,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-09-27 23:00:01,023 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-09-27 23:00:01,023 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-09-27 23:00:01,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-09-27 23:00:01,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-09-27 23:00:01,030 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-09-27 23:00:01,030 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-09-27 23:00:01,031 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-09-27 23:00:01,031 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-09-27 23:00:01,048 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-09-27 23:00:01,048 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-09-27 23:00:01,052 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-09-27 23:00:01,052 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-09-27 23:00:01,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-09-27 23:00:01,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-09-27 23:00:01,058 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-09-27 23:00:01,058 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-09-27 23:00:01,061 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-09-27 23:00:01,061 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-09-27 23:00:01,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-09-27 23:00:01,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-09-27 23:00:01,069 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-09-27 23:00:01,069 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-09-27 23:00:01,072 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-09-27 23:00:01,072 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-09-27 23:00:01,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-09-27 23:00:01,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-09-27 23:00:01,076 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanMediaMapper'
+2023-09-27 23:00:01,076 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanMediaMapper'
+2023-09-27 23:00:01,093 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-09-27 23:00:01,093 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-09-27 23:00:01,096 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-09-27 23:00:01,096 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-09-27 23:00:01,098 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-09-27 23:00:01,098 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-09-27 23:00:01,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-09-27 23:00:01,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-09-27 23:00:01,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-09-27 23:00:01,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-09-27 23:00:01,108 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-09-27 23:00:01,108 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-09-27 23:00:01,111 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-09-27 23:00:01,111 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-09-27 23:00:01,112 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-09-27 23:00:01,112 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-09-27 23:00:01,116 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-09-27 23:00:01,116 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-09-27 23:00:01,125 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-09-27 23:00:01,125 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-09-27 23:00:01,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-09-27 23:00:01,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-09-27 23:00:01,132 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-09-27 23:00:01,132 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-09-27 23:00:01,135 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-09-27 23:00:01,135 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-09-27 23:00:01,138 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-09-27 23:00:01,138 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-09-27 23:00:01,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-09-27 23:00:01,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-09-27 23:00:01,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-09-27 23:00:01,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-09-27 23:00:01,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-09-27 23:00:01,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-09-27 23:00:01,170 DEBUG [main][EventListenerMethodProcessor.java:190] - 1 @EventListener methods processed on bean 'nacosServiceManager': {public void com.alibaba.cloud.nacos.NacosServiceManager.onInstancePreRegisteredEvent(org.springframework.cloud.client.discovery.event.InstancePreRegisteredEvent)=@org.springframework.context.event.EventListener(classes=[], condition=, value=[])}
+2023-09-27 23:00:01,170 DEBUG [main][EventListenerMethodProcessor.java:190] - 1 @EventListener methods processed on bean 'nacosServiceManager': {public void com.alibaba.cloud.nacos.NacosServiceManager.onInstancePreRegisteredEvent(org.springframework.cloud.client.discovery.event.InstancePreRegisteredEvent)=@org.springframework.context.event.EventListener(classes=[], condition=, value=[])}
+2023-09-27 23:00:01,173 DEBUG [main][EventListenerMethodProcessor.java:190] - 1 @EventListener methods processed on bean 'nacosAutoServiceRegistration': {public void com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.onNacosDiscoveryInfoChangedEvent(com.alibaba.cloud.nacos.event.NacosDiscoveryInfoChangedEvent)=@org.springframework.context.event.EventListener(classes=[], condition=, value=[])}
+2023-09-27 23:00:01,173 DEBUG [main][EventListenerMethodProcessor.java:190] - 1 @EventListener methods processed on bean 'nacosAutoServiceRegistration': {public void com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.onNacosDiscoveryInfoChangedEvent(com.alibaba.cloud.nacos.event.NacosDiscoveryInfoChangedEvent)=@org.springframework.context.event.EventListener(classes=[], condition=, value=[])}
+2023-09-27 23:00:01,188 DEBUG [main][MBeanExporter.java:434] - Registering beans for JMX exposure on startup
+2023-09-27 23:00:01,188 DEBUG [main][MBeanExporter.java:434] - Registering beans for JMX exposure on startup
+2023-09-27 23:00:01,189 DEBUG [main][MBeanExporter.java:541] - Autodetecting user-defined JMX MBeans
+2023-09-27 23:00:01,189 DEBUG [main][MBeanExporter.java:541] - Autodetecting user-defined JMX MBeans
+2023-09-27 23:00:01,193 DEBUG [main][MBeanExporter.java:896] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2023-09-27 23:00:01,193 DEBUG [main][MBeanExporter.java:896] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2023-09-27 23:00:01,213 DEBUG [main][MBeanExporter.java:896] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2023-09-27 23:00:01,213 DEBUG [main][MBeanExporter.java:896] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2023-09-27 23:00:01,214 DEBUG [main][MBeanExporter.java:896] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2023-09-27 23:00:01,214 DEBUG [main][MBeanExporter.java:896] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2023-09-27 23:00:01,215 DEBUG [main][MBeanExporter.java:896] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2023-09-27 23:00:01,215 DEBUG [main][MBeanExporter.java:896] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2023-09-27 23:00:01,222 DEBUG [main][MBeanExporter.java:676] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2023-09-27 23:00:01,222 DEBUG [main][MBeanExporter.java:676] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2023-09-27 23:00:01,265 DEBUG [main][MBeanExporter.java:676] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2023-09-27 23:00:01,265 DEBUG [main][MBeanExporter.java:676] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2023-09-27 23:00:01,333 DEBUG [main][MBeanExporter.java:676] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=24faea88,type=ConfigurationPropertiesRebinder]
+2023-09-27 23:00:01,333 DEBUG [main][MBeanExporter.java:676] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=24faea88,type=ConfigurationPropertiesRebinder]
+2023-09-27 23:00:01,374 DEBUG [main][MBeanExporter.java:669] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2023-09-27 23:00:01,374 DEBUG [main][MBeanExporter.java:669] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2023-09-27 23:00:01,386 DEBUG [main][PropertySourcesPropertyResolver.java:115] - Found key 'spring.profiles.active' in PropertySource 'configurationProperties' with value of type String
+2023-09-27 23:00:01,386 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-09-27 23:00:01,386 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-09-27 23:00:01,386 DEBUG [main][PropertySourcesPropertyResolver.java:115] - Found key 'spring.profiles.active' in PropertySource 'configurationProperties' with value of type String
+2023-09-27 23:00:01,398 DEBUG [main][PropertySourcesPropertyResolver.java:115] - Found key 'spring.profiles.active' in PropertySource 'configurationProperties' with value of type String
+2023-09-27 23:00:01,398 DEBUG [main][PropertySourcesPropertyResolver.java:115] - Found key 'spring.profiles.active' in PropertySource 'configurationProperties' with value of type String
+2023-09-27 23:00:01,407 DEBUG [main][PropertySourcesPropertyResolver.java:115] - Found key 'spring.profiles.active' in PropertySource 'configurationProperties' with value of type String
+2023-09-27 23:00:01,407 DEBUG [main][PropertySourcesPropertyResolver.java:115] - Found key 'spring.profiles.active' in PropertySource 'configurationProperties' with value of type String
+2023-09-27 23:00:01,450 DEBUG [main][DefaultLifecycleProcessor.java:356] - Starting beans in phase 0
+2023-09-27 23:00:01,450 DEBUG [main][DefaultLifecycleProcessor.java:356] - Starting beans in phase 0
+2023-09-27 23:00:01,459 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-09-27 23:00:01,459 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-09-27 23:00:01,460 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-09-27 23:00:01,460 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-09-27 23:00:01,462 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-09-27 23:00:01,462 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-09-27 23:00:01,479 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-09-27 23:00:01,479 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-09-27 23:00:01,542 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-09-27 23:00:01,542 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-09-27 23:00:01,547 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40content-api&udpPort=52132&clusters=DEFAULT, body: {}
+2023-09-27 23:00:01,547 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40content-api&udpPort=52132&clusters=DEFAULT, body: {}
+2023-09-27 23:00:01,566 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-09-27 23:00:01,566 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-09-27 23:00:01,636 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-09-27 23:00:01,636 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-09-27 23:00:01,673 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6ad16c5d'
+2023-09-27 23:00:01,673 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6ad16c5d'
+2023-09-27 23:00:01,679 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-09-27 23:00:01,679 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
