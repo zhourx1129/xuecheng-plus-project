@@ -45,12 +45,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * @description
- * @author Mr.M
- * @date 2022/9/10 8:58
- * @version 1.0
- */
+
 @Slf4j
 @Service
 public class MediaFileServiceImpl implements MediaFileService {
@@ -84,8 +79,6 @@ public class MediaFileServiceImpl implements MediaFileService {
    return null;
   }
  }
-
-
 
  @Override
  public PageResult<MediaFiles> queryMediaFiels(Long companyId,PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto) {
