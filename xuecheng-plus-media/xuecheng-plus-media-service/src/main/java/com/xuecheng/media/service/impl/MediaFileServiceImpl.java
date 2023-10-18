@@ -9,10 +9,12 @@ import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 import com.xuecheng.base.model.RestResponse;
 import com.xuecheng.media.mapper.MediaFilesMapper;
+import com.xuecheng.media.mapper.MediaProcessMapper;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
 import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.model.dto.UploadFileResultDto;
 import com.xuecheng.media.model.po.MediaFiles;
+import com.xuecheng.media.model.po.MediaProcess;
 import com.xuecheng.media.service.MediaFileService;
 import io.minio.*;
 import io.minio.errors.*;
@@ -56,6 +58,8 @@ public class MediaFileServiceImpl implements MediaFileService {
  MediaFilesMapper mediaFilesMapper;
   @Autowired
   MinioClient minioClient;
+  @Autowired
+ MediaProcessMapper mediaProcessMapper;
   //存储普通文件
   @Value("${minio.bucket.files}")
   private String bucket_mediafiles;
@@ -184,8 +188,34 @@ public class MediaFileServiceImpl implements MediaFileService {
     return null;
    }
   }
+  //记录待处理的任务
+  addWaitTask(mediaFiles);
+  //向mediaProcess插入记录
   return mediaFiles;
  }
+
+ /**
+  * 添加待处理任务
+  * @param mediaFiles 媒体文件
+  */
+ public void addWaitTask(MediaFiles mediaFiles){
+  //获取文件的mimetype
+  String filename = mediaFiles.getFilename();
+  String extension = filename.substring(filename.lastIndexOf("."));
+  String mimeType = getMimeType(extension);
+  //通过mimetype判断如果是avi视频才写入待处理任务
+  if (mimeType.equals("video/x-msvideo")){
+   MediaProcess mediaProcess = new MediaProcess();
+   BeanUtils.copyProperties(mediaFiles,mediaProcess);
+   //状态是未处理
+   mediaProcess.setStatus("1");
+   //上传时间
+   mediaProcess.setCreateDate(LocalDateTime.now());
+   //失败此数
+   mediaProcess.setFailCount(0);
+   mediaProcess.setUrl(null);
+    mediaProcessMapper.insert(mediaProcess);
+  }}
 
  /**
   * 检查文件是否存在
@@ -351,7 +381,6 @@ public class MediaFileServiceImpl implements MediaFileService {
   clearChunkFiles(chunkFileFolderPath,chunkTotal);
   return RestResponse.success(true);
  }
-
  /**
   * 从minio下载文件
   * @param bucket     桶
@@ -380,7 +409,7 @@ public class MediaFileServiceImpl implements MediaFileService {
     try {
      outputStream.close();
     } catch (IOException e) {
-      e.printStackTrace();
+     e.printStackTrace();
     }
    }
   }
