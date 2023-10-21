@@ -1,0 +1,10 @@
+2023-10-20 19:00:01,181 DEBUG [xxl-job, JobThread-4-1697760600132][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2023-10-20 19:00:01,181 DEBUG [xxl-job, JobThread-4-1697760600132][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2023-10-20 19:00:01,186 DEBUG [xxl-job, JobThread-4-1697760600132][BaseJdbcLogger.java:137] - ==> Parameters: 2(Integer), 1(Integer), 8(Integer)
+2023-10-20 19:00:01,186 DEBUG [xxl-job, JobThread-4-1697760600132][BaseJdbcLogger.java:137] - ==> Parameters: 2(Integer), 1(Integer), 8(Integer)
+2023-10-20 19:00:01,187 DEBUG [xxl-job, JobThread-4-1697760600132][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-20 19:00:01,187 DEBUG [xxl-job, JobThread-4-1697760600132][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-20 19:00:01,187 DEBUG [xxl-job, JobThread-4-1697760600132][VideoTask.java:49] - 取到的视频处理任务数:0
+2023-10-20 19:00:01,187 DEBUG [xxl-job, JobThread-4-1697760600132][VideoTask.java:49] - 取到的视频处理任务数:0
+2023-10-20 19:00:01,188 DEBUG [xxl-job, JobThread-4-1697760600132][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:178148
+2023-10-20 19:00:01,188 DEBUG [xxl-job, JobThread-4-1697760600132][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:178148
