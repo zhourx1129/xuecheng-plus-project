@@ -24,8 +24,8 @@ import java.io.IOException;
  * @date 2022/9/6 11:29
  * @version 1.0
  */
- @Api(value = "媒资文件管理接口",tags = "媒资文件管理接口")
- @RestController
+@Api(value = "媒资文件管理接口",tags = "媒资文件管理接口")
+@RestController
 public class MediaFilesController {
 
 
@@ -43,7 +43,8 @@ public class MediaFilesController {
 
     @ApiOperation("上传文件")
     @PostMapping(value = "/upload/coursefile", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata) throws IOException {
+    public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata,
+                                      @RequestParam(value= "objectName",required=false)String objectName) throws IOException {
 //     准备上传文件的信息
         UploadFileParamsDto uploadFileResultDto = new UploadFileParamsDto();
         //原始文件信息
@@ -59,7 +60,7 @@ public class MediaFilesController {
         //文件路径
         String localFilePath = tempFile.getAbsolutePath();
         //调用service上传图片
-        return mediaFileService.uploadFile(companyId, uploadFileResultDto, localFilePath);
+        return mediaFileService.uploadFile(companyId, uploadFileResultDto, localFilePath,null);
     }
 
 }

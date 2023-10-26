@@ -53,7 +53,7 @@ public interface MediaFileService {
   * @param localFilePath       本地文件路径
   * @return {@link UploadFileResultDto}
   */
-    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath);
+    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath,String objectName);
 
 
     /**

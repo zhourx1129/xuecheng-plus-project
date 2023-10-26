@@ -425,7 +425,7 @@ public class MediaFileServiceImpl implements MediaFileService {
 
  //@Transactional
  @Override
- public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
+ public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath,String objectName) {
   //文件名
   String filename = uploadFileParamsDto.getFilename();
   //先得到扩展名
@@ -436,7 +436,9 @@ public class MediaFileServiceImpl implements MediaFileService {
   String defaultFolderPath = getDefaultFolderPath();
   //文件的md5
   String fileMd5 = getFileMd5(new File(localFilePath));
-  String objectName = defaultFolderPath+fileMd5+extension;
+  if(StringUtils.isEmpty(objectName)){
+       objectName = defaultFolderPath+fileMd5+extension;
+  }
   //上传文件到minio
   boolean result = addMediaFilesToMinIO(localFilePath, mimeType, bucket_mediafiles, objectName);
   if (!result) {

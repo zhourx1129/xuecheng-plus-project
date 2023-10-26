@@ -9,6 +9,7 @@ spring:
         group: xuecheng-plus-project
         file-extension: yaml
         refresh-enabled: true
+
 #微服务配置
 #spring:
 #  application:

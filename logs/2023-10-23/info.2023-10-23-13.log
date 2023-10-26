@@ -1,0 +1,32 @@
+2023-10-23 14:00:00,047 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - JDBC Connection [HikariProxyConnection@1491087686 wrapping com.mysql.cj.jdbc.ConnectionImpl@3986b219] will not be managed by Spring
+2023-10-23 14:00:00,047 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - JDBC Connection [HikariProxyConnection@1491087686 wrapping com.mysql.cj.jdbc.ConnectionImpl@3986b219] will not be managed by Spring
+2023-10-23 14:00:00,048 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' and t.message_type=? limit ?
+2023-10-23 14:00:00,048 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' and t.message_type=? limit ?
+2023-10-23 14:00:00,048 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), course_publish(String), 30(Integer)
+2023-10-23 14:00:00,048 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), course_publish(String), 30(Integer)
+2023-10-23 14:00:00,028 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2023-10-23 14:00:00,028 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 8(Integer)
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 8(Integer)
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5be3811e]
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5be3811e]
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-4-1698018335799][VideoTask.java:49] - 取到的视频处理任务数:0
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-4-1698018335799][VideoTask.java:49] - 取到的视频处理任务数:0
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][MessageProcessAbstract.java:53] - 取出待处理消息0条
+2023-10-23 14:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][MessageProcessAbstract.java:53] - 取出待处理消息0条
+2023-10-23 14:00:00,051 DEBUG [xxl-job, JobThread-4-1698018335799][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:216058
+2023-10-23 14:00:00,051 DEBUG [xxl-job, JobThread-4-1698018335799][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:216058
+2023-10-23 14:00:00,051 DEBUG [xxl-job, JobThread-5-1698019265744][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:216057
+2023-10-23 14:00:00,051 DEBUG [xxl-job, JobThread-5-1698019265744][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:216057
+2023-10-23 14:00:00,987 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63050, ip='192.168.73.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-23 14:00:00,987 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63040, ip='192.168.73.1', weight=1.0, serviceName='xuecheng-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-23 14:00:00,987 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63050, ip='192.168.73.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-23 14:00:00,987 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63040, ip='192.168.73.1', weight=1.0, serviceName='xuecheng-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-23 14:00:00,987 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev402&port=63050&clusterName=DEFAULT&ip=192.168.73.1, body: {}
+2023-10-23 14:00:00,987 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev402&port=63050&clusterName=DEFAULT&ip=192.168.73.1, body: {}
+2023-10-23 14:00:00,987 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40content-api&namespaceId=dev402&port=63040&clusterName=DEFAULT&ip=192.168.73.1, body: {}
+2023-10-23 14:00:00,987 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40content-api&namespaceId=dev402&port=63040&clusterName=DEFAULT&ip=192.168.73.1, body: {}

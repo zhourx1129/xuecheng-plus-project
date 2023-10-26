@@ -1,0 +1,34 @@
+2023-10-23 13:00:00,024 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - Creating a new SqlSession
+2023-10-23 13:00:00,024 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - Creating a new SqlSession
+2023-10-23 13:00:00,025 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2023-10-23 13:00:00,025 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2023-10-23 13:00:00,045 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70c69745] was not registered for synchronization because synchronization is not active
+2023-10-23 13:00:00,045 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70c69745] was not registered for synchronization because synchronization is not active
+2023-10-23 13:00:00,045 DEBUG [xxl-job, JobThread-5-1698019265744][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-10-23 13:00:00,045 DEBUG [xxl-job, JobThread-5-1698019265744][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-10-23 13:00:00,045 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 8(Integer)
+2023-10-23 13:00:00,045 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 8(Integer)
+2023-10-23 13:00:00,046 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - JDBC Connection [HikariProxyConnection@1824502490 wrapping com.mysql.cj.jdbc.ConnectionImpl@3b054856] will not be managed by Spring
+2023-10-23 13:00:00,046 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - JDBC Connection [HikariProxyConnection@1824502490 wrapping com.mysql.cj.jdbc.ConnectionImpl@3b054856] will not be managed by Spring
+2023-10-23 13:00:00,046 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' and t.message_type=? limit ?
+2023-10-23 13:00:00,046 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' and t.message_type=? limit ?
+2023-10-23 13:00:00,047 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-23 13:00:00,047 DEBUG [xxl-job, JobThread-4-1698018335799][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-23 13:00:00,047 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), course_publish(String), 30(Integer)
+2023-10-23 13:00:00,047 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), course_publish(String), 30(Integer)
+2023-10-23 13:00:00,047 DEBUG [xxl-job, JobThread-4-1698018335799][VideoTask.java:49] - 取到的视频处理任务数:0
+2023-10-23 13:00:00,047 DEBUG [xxl-job, JobThread-4-1698018335799][VideoTask.java:49] - 取到的视频处理任务数:0
+2023-10-23 13:00:00,048 DEBUG [xxl-job, JobThread-4-1698018335799][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:214255
+2023-10-23 13:00:00,048 DEBUG [xxl-job, JobThread-4-1698018335799][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:214255
+2023-10-23 13:00:00,049 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-23 13:00:00,049 DEBUG [xxl-job, JobThread-5-1698019265744][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-10-23 13:00:00,049 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70c69745]
+2023-10-23 13:00:00,049 DEBUG [xxl-job, JobThread-5-1698019265744][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70c69745]
+2023-10-23 13:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][MessageProcessAbstract.java:53] - 取出待处理消息0条
+2023-10-23 13:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][MessageProcessAbstract.java:53] - 取出待处理消息0条
+2023-10-23 13:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:214256
+2023-10-23 13:00:00,050 DEBUG [xxl-job, JobThread-5-1698019265744][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:214256
+2023-10-23 13:00:01,083 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-23 13:00:01,083 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-23 13:00:01,083 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-23 13:00:01,083 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
